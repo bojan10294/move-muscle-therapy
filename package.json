@@ -19,6 +19,7 @@
     "yet-another-react-lightbox": "^3.30.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5",
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
