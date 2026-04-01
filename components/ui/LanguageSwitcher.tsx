@@ -18,26 +18,16 @@ export default function LanguageSwitcher() {
     });
   };
 
+  const next = locale === "sr" ? "en" : "sr";
+
   return (
-    <div
-      className="flex items-center rounded-full border border-slate-200 bg-slate-50 p-0.5 text-sm font-medium dark:border-slate-700 dark:bg-slate-800"
-      aria-label="Language switcher"
+    <button
+      onClick={() => switchLocale(next)}
+      disabled={isPending}
+      aria-label={`Switch to ${next.toUpperCase()}`}
+      className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm font-medium text-slate-500 transition-colors hover:bg-teal-600 hover:text-white dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:hover:text-white"
     >
-      {(["sr", "en"] as const).map((l) => (
-        <button
-          key={l}
-          onClick={() => switchLocale(l)}
-          disabled={isPending}
-          aria-pressed={locale === l}
-          className={`rounded-full px-3 py-1 transition-colors ${
-            locale === l
-              ? "bg-teal-600 text-white shadow-sm"
-              : "text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"
-          }`}
-        >
-          {l.toUpperCase()}
-        </button>
-      ))}
-    </div>
+      {next.toUpperCase()}
+    </button>
   );
 }
