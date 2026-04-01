@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "about": "O nama",
+    "services": "Usluge",
+    "certificates": "Sertifikati",
+    "testimonials": "Utisci",
+    "contact": "Kontakt",
+    "book": "Zakaži"
+  },
+  "hero": {
+    "headline": "Vaš put ka zdravlju počinje ovde",
+    "subheadline": "Stručne terapeutske usluge u Čačku — dry needling, hidžama, masaže, kiropraktika i mnogo više.",
+    "cta": "Zakaži tretman"
+  },
+  "about": {
+    "title": "O ordinaciji",
+    "subtitle": "Profesionalni pristup vašem zdravlju",
+    "body": "Move & Muscle Therapy je terapeutska ordinacija posvećena poboljšanju kvaliteta života naših pacijenata. Kombinujemo savremene manuelne tehnike sa holističkim pristupom tretmanu — od akutnih povreda do hronične boli i prevencije. Svaki tretman je individualno prilagođen vašim potrebama.",
+    "therapistName": "Luka Tomić",
+    "therapistTitle": "Master profesora sporta, Terapeutski specijalista",
+    "yearsLabel": "godina iskustva",
+    "yearsValue": "5+",
+    "certLabel": "sertifikata",
+    "certValue": "9",
+    "clientsLabel": "zadovoljnih klijenata",
+    "clientsValue": "500+"
+  },
+  "services": {
+    "title": "Naše usluge",
+    "subtitle": "Svaki tretman je prilagođen vašim potrebama",
+    "dryNeedling": {
+      "name": "Dry Needling",
+      "description": "Precizna tehnika iglanja mišićnih okidačkih tačaka za otklanjanje bola, poboljšanje pokretljivosti i ubrzanje oporavka."
+    },
+    "hijamaWet": {
+      "name": "Hidžama — mokra",
+      "description": "Tradicionalna terapija mokrim kupingom koja stimuliše cirkulaciju i pomaže u detoksikaciji organizma."
+    },
+    "hijamaDry": {
+      "name": "Hidžama — suva",
+      "description": "Suvi kuping masažom za opuštanje mišića, poboljšanje protoka krvi i smanjenje napetosti."
+    },
+    "therapeuticMassage": {
+      "name": "Terapeutska masaža",
+      "description": "Dubinska masaža usmerena na rešavanje specifičnih mišićnih problema, povreda i hroničnih bolova."
+    },
+    "relaxMassage": {
+      "name": "Relax masaža",
+      "description": "Opuštajuća celotelesna masaža za smanjenje stresa, poboljšanje sna i obnovu energije."
+    },
+    "chiropractic": {
+      "name": "Kiropraktika",
+      "description": "Manuelne manipulacije kičmenog stuba i zglobova za korekciju poravnanja i olakšanje bola."
+    },
+    "pressureBoots": {
+      "name": "Pressure boots",
+      "description": "Pneumatska kompresija nogu za ubrzani oporavak mišića, smanjenje otoka i poboljšanje cirkulacije."
+    },
+    "electrotherapy": {
+      "name": "Elektroterapija",
+      "description": "Terapija elektrimalnim strujama za smanjenje bola, regeneraciju tkiva i jačanje mišića."
+    }
+  },
+  "certificates": {
+    "title": "Sertifikati i edukacije",
+    "subtitle": "Kontinuirano usavršavanje za vrhunske rezultate"
+  },
+  "testimonials": {
+    "title": "Šta kažu naši klijenti",
+    "subtitle": "Pravi rezultati, pravi ljudi",
+    "googleCta": "Pogledaj sve recenzije na Google-u"
+  },
+  "instagram": {
+    "title": "Pratite nas",
+    "subtitle": "Saveti, tretmani i rezultati direktno iz ordinacije",
+    "cta": "Pratite @movenmuscle"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Tu smo za vas — zakažite vaš tretman danas",
+    "address": "Đorđa Tomašević 245, Čačak",
+    "phone": "061/689-8101",
+    "hoursLabel": "Radno vreme",
+    "hoursValue": "Pon–Pet: 09:00–19:00\nSub: 09:00–14:00",
+    "bookCta": "Zakaži putem WhatsApp-a",
+    "directionsLabel": "Prikaži na mapi"
+  },
+  "footer": {
+    "tagline": "Vaš put ka zdravlju počinje ovde.",
+    "copyright": "© {year} Move & Muscle Therapy. Sva prava zadržana.",
+    "address": "Đorđa Tomašević 245, Čačak"
+  },
+  "whatsapp": {
+    "tooltip": "Zakaži putem WhatsApp-a"
+  }
+}

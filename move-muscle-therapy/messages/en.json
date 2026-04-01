@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "certificates": "Certificates",
+    "testimonials": "Reviews",
+    "contact": "Contact",
+    "book": "Book Now"
+  },
+  "hero": {
+    "headline": "Your journey to health starts here",
+    "subheadline": "Expert therapeutic services in Čačak — dry needling, hijama, massage, chiropractic and more.",
+    "cta": "Book a session"
+  },
+  "about": {
+    "title": "About us",
+    "subtitle": "A professional approach to your wellbeing",
+    "body": "Move & Muscle Therapy is a therapeutic practice dedicated to improving our patients' quality of life. We combine modern manual techniques with a holistic approach — from acute injuries to chronic pain and prevention. Every treatment is individually tailored to your needs.",
+    "therapistName": "Luka Tomić",
+    "therapistTitle": "MSc, Therapeutic Specialist",
+    "yearsLabel": "years of experience",
+    "yearsValue": "5+",
+    "certLabel": "certificates",
+    "certValue": "9",
+    "clientsLabel": "satisfied clients",
+    "clientsValue": "500+"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Every treatment is tailored to your needs",
+    "dryNeedling": {
+      "name": "Dry Needling",
+      "description": "A precise needling technique targeting muscular trigger points to relieve pain, improve mobility and accelerate recovery."
+    },
+    "hijamaWet": {
+      "name": "Hijama — wet cupping",
+      "description": "Traditional wet cupping therapy that stimulates circulation and supports the body's natural detoxification."
+    },
+    "hijamaDry": {
+      "name": "Hijama — dry cupping",
+      "description": "Dry cupping massage to relax muscles, improve blood flow and release tension."
+    },
+    "therapeuticMassage": {
+      "name": "Therapeutic massage",
+      "description": "Deep-tissue massage targeting specific muscular issues, injuries and chronic pain."
+    },
+    "relaxMassage": {
+      "name": "Relaxation massage",
+      "description": "A full-body relaxing massage to reduce stress, improve sleep quality and restore energy."
+    },
+    "chiropractic": {
+      "name": "Chiropractic",
+      "description": "Manual spinal and joint manipulation to correct alignment and provide lasting pain relief."
+    },
+    "pressureBoots": {
+      "name": "Pressure boots",
+      "description": "Pneumatic leg compression for faster muscle recovery, reduced swelling and improved circulation."
+    },
+    "electrotherapy": {
+      "name": "Electrotherapy",
+      "description": "Electrical stimulation therapy for pain relief, tissue regeneration and muscle strengthening."
+    }
+  },
+  "certificates": {
+    "title": "Certificates & Training",
+    "subtitle": "Continuous learning for exceptional results"
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Real results, real people",
+    "googleCta": "See all reviews on Google"
+  },
+  "instagram": {
+    "title": "Follow us",
+    "subtitle": "Tips, treatments and results straight from the practice",
+    "cta": "Follow @movenmuscle"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We are here for you — book your treatment today",
+    "address": "Đorđa Tomašević 245, Čačak, Serbia",
+    "phone": "061/689-8101",
+    "hoursLabel": "Working hours",
+    "hoursValue": "Mon–Fri: 09:00–19:00\nSat: 09:00–14:00",
+    "bookCta": "Book via WhatsApp",
+    "directionsLabel": "Get directions"
+  },
+  "footer": {
+    "tagline": "Your journey to health starts here.",
+    "copyright": "© {year} Move & Muscle Therapy. All rights reserved.",
+    "address": "Đorđa Tomašević 245, Čačak, Serbia"
+  },
+  "whatsapp": {
+    "tooltip": "Book via WhatsApp"
+  }
+}
