@@ -18,9 +18,9 @@ export default function HomePage() {
         <Hero />
         <About />
         <Services />
-        <Certificates />
-        <Testimonials />
         <InstagramFeed />
+        <Testimonials />
+        <Certificates />
         <Contact />
       </main>
       <Footer />

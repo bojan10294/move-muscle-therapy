@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import SectionWrapper from "@/components/ui/SectionWrapper";
@@ -10,9 +10,10 @@ import { certificates } from "@/lib/data/certificates";
 
 export default function Certificates() {
   const t = useTranslations("certificates");
+  const locale = useLocale() as "en" | "sr";
   const [index, setIndex] = useState(-1);
 
-  const slides = certificates.map((c) => ({ src: c.imagePath, alt: c.title }));
+  const slides = certificates.map((c) => ({ src: c.imagePath, alt: c.titles[locale] }));
 
   return (
     <SectionWrapper id="certificates" className="bg-[var(--color-surface)] dark:bg-[var(--color-surface)]">
@@ -35,12 +36,12 @@ export default function Certificates() {
               key={cert.id}
               onClick={() => setIndex(i)}
               className="group overflow-hidden rounded-2xl bg-white shadow-sm border border-slate-100 text-left transition-all hover:shadow-md hover:-translate-y-1 dark:bg-slate-800 dark:border-slate-700"
-              aria-label={`Otvori sertifikat: ${cert.title}`}
+              aria-label={`Otvori sertifikat: ${cert.titles[locale]}`}
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-slate-100 dark:bg-slate-700">
                 <Image
                   src={cert.imagePath}
-                  alt={cert.title}
+                  alt={cert.titles[locale]}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -48,10 +49,10 @@ export default function Certificates() {
               </div>
               <div className="p-4">
                 <p className="text-sm font-semibold text-[var(--color-dark)] leading-snug line-clamp-2 dark:text-white">
-                  {cert.title}
+                  {cert.titles[locale]}
                 </p>
                 <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
-                  {cert.issuer && `${cert.issuer} · `}{cert.year}
+                  {cert.issuers[locale] && `${cert.issuers[locale]} · `}{cert.year}
                 </p>
               </div>
             </button>
