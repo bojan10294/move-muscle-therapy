@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { MapPin, Phone, Clock, MessageCircle, ExternalLink } from "lucide-react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import WhatsAppIcon from '../ui/WhatsAppIcon';
 
 const WHATSAPP_URL = "https://wa.me/381616898101";
 const MAPS_EMBED_URL =
@@ -58,7 +59,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25d366] px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90"
               >
-                <MessageCircle size={16} />
+                <WhatsAppIcon size={18} className="shrink-0" />
                 {t("bookCta")}
               </a>
               <a

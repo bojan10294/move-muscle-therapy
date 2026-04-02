@@ -28,6 +28,19 @@ export const certificates: Certificate[] = [
     imagePath: "/images/certificates/cert-dry-needling-l2.jpg",
   },
   {
+    id: "hijama-therapy",
+    titles: {
+      en: "Hijama Therapy",
+      sr: "Hidžama Terapija",
+    },
+    issuers: {
+      en: "Hidzama Centar Holistic, Belgrade",
+      sr: "Hidžama Centar Holistic, Beograd",
+    },
+    year: 2026,
+    imagePath: "/images/certificates/hijama-therapy.jpg",
+  },
+  {
     id: "dry-needling-master",
     titles: {
       en: "Dry Needling Master Therapist",

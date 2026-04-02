@@ -19,12 +19,12 @@ type ServiceDef = {
 };
 
 const SERVICE_DEFS: ServiceDef[] = [
-  { icon: Zap, key: "dryNeedling" },
+  { icon: Bone, key: "chiropractic" },
   { icon: Droplets, key: "hijamaWet" },
   { icon: Wind, key: "hijamaDry" },
+  { icon: Zap, key: "dryNeedling" },
   { icon: HandHeart, key: "therapeuticMassage" },
   { icon: Waves, key: "relaxMassage" },
-  { icon: Bone, key: "chiropractic" },
   { icon: Activity, key: "pressureBoots" },
   { icon: Bolt, key: "electrotherapy" },
 ];

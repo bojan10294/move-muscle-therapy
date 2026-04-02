@@ -20,6 +20,9 @@ const config: Config = {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
         display: ["var(--font-playfair)", "Georgia", "serif"],
       },
+      spacing: {
+        13: '3.25rem'
+      }
     },
   },
   plugins: [],

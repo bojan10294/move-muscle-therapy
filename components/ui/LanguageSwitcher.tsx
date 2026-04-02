@@ -25,7 +25,7 @@ export default function LanguageSwitcher() {
       onClick={() => switchLocale(next)}
       disabled={isPending}
       aria-label={`Switch to ${next.toUpperCase()}`}
-      className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm font-medium text-slate-500 transition-colors hover:bg-teal-600 hover:text-white dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:hover:text-white"
+      className="rounded-full border border-slate-300 bg-surface px-3 py-1 text-sm font-medium text-slate-500 transition-colors hover:bg-teal-600 hover:text-white dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:hover:text-white"
     >
       {next.toUpperCase()}
     </button>

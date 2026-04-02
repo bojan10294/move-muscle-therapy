@@ -2,6 +2,7 @@
 
 import { motion, type Variants } from "framer-motion";
 import { useTranslations } from "next-intl";
+import WhatsAppIcon from "@/components/ui/WhatsAppIcon";
 
 const WHATSAPP_URL = "https://wa.me/381616898101";
 
@@ -62,9 +63,10 @@ export default function Hero() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-teal-600 px-7 py-3.5 font-semibold text-white shadow-lg shadow-teal-900/30 transition-all hover:bg-teal-500 hover:shadow-xl hover:-translate-y-0.5"
+              className="flex items-center gap-2 rounded-full bg-teal-600 px-7 py-3.5 font-semibold text-white shadow-lg shadow-teal-900/30 transition-all hover:bg-teal-500 hover:shadow-xl hover:-translate-y-0.5"
             >
               {t("cta")}
+              <WhatsAppIcon size={20} className="shrink-0" />
             </a>
             <button
               onClick={() =>
@@ -74,7 +76,7 @@ export default function Hero() {
               }
               className="rounded-full border border-white/20 px-7 py-3.5 font-semibold text-white transition-all hover:bg-white/10"
             >
-              Naše usluge ↓
+              {t("services")}
             </button>
           </motion.div>
         </motion.div>

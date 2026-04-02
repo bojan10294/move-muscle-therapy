@@ -9,19 +9,20 @@
   },
   "hero": {
     "headline": "Your journey to health starts here",
-    "subheadline": "Expert therapeutic services in Čačak — dry needling, hijama, massage, chiropractic and more.",
-    "cta": "Book a session"
+    "subheadline": "Expert therapeutic services in Čačak — chiropractic, hijama, dry needling, massage, and more.",
+    "cta": "Book a session",
+    "services": "Our services ↓"
   },
   "about": {
     "title": "About us",
     "subtitle": "A professional approach to your wellbeing",
     "body": "Move & Muscle Therapy is a therapeutic practice dedicated to improving our patients' quality of life. We combine modern manual techniques with a holistic approach — from acute injuries to chronic pain and prevention. Every treatment is individually tailored to your needs.",
     "therapistName": "Luka Tomić",
-    "therapistTitle": "MSc, Therapeutic Specialist",
+    "therapistTitle": "MSc, Kinesitherapeut",
     "yearsLabel": "years of experience",
-    "yearsValue": "5+",
+    "yearsValue": "8+",
     "certLabel": "certificates",
-    "certValue": "9",
+    "certValue": "10",
     "clientsLabel": "satisfied clients",
     "clientsValue": "500+"
   },
@@ -81,7 +82,7 @@
     "address": "Đorđa Tomašević 245, Čačak, Serbia",
     "phone": "061/689-8101",
     "hoursLabel": "Working hours",
-    "hoursValue": "Mon–Fri: 09:00–19:00\nSat: 09:00–14:00",
+    "hoursValue": "Mon–Fri: 14:00–21:00\nSat: 09:00–15:00",
     "bookCta": "Book via WhatsApp",
     "directionsLabel": "Get directions"
   },

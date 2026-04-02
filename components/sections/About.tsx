@@ -62,10 +62,10 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl shadow-md">
               <Image
-                src="/images/Luka.jpg"
+                src="/images/Luka-nova.jpg"
                 alt="Luka Tomić, Master profesora sporta"
                 fill
-                className="object-cover object-top rounded-3xl"
+                className="object-cover object-center rounded-3xl"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
               />

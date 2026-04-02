@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 
@@ -53,14 +54,17 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/90 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/90">
+    <header className="sticky top-0 z-50 border-b border-slate-100 bg-surface/90 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/90">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a
-          href="#"
-          className="font-display text-xl font-bold tracking-tight text-[var(--color-dark)] dark:text-white"
-          style={{ fontFamily: "var(--font-playfair), serif" }}
-        >
-          Move & Muscle<span className="text-teal-600 dark:text-teal-400"> Therapy</span>
+        <a href="#">
+          <Image
+            src="/images/mmtherapy-logo.png"
+            alt="Move & Muscle Therapy"
+            width={200}
+            height={60}
+            priority
+            className="h-11 md:h-13 w-auto object-contain" 
+          />
         </a>
 
         <nav className="hidden items-center gap-6 md:flex" aria-label="Main navigation">

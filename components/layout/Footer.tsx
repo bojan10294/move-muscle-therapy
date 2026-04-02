@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import InstagramIcon from "@/components/ui/InstagramIcon";
 
 const INSTAGRAM_URL = "https://www.instagram.com/movenmuscle";
@@ -12,15 +13,15 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center gap-6 text-center md:flex-row md:justify-between md:text-left">
           <div>
-            <p
-              className="mb-1 text-xl font-bold text-white"
-              style={{ fontFamily: "var(--font-playfair), serif" }}
-            >
-              Move & Muscle<span className="text-teal-400"> Therapy</span>
-            </p>
+            <Image
+              src="/images/mmtherapy-logo.png"
+              alt="Move & Muscle Therapy"
+              width={200}
+              height={66}
+              className="mb-2 h-14 w-auto object-contain"
+            />
             <p className="text-sm text-slate-400">{t("tagline")}</p>
-            <p className="mt-1 text-xs text-slate-500">{t("address")}</p>
-          </div>
+        </div>
 
           <div className="flex items-center gap-4">
             <a
